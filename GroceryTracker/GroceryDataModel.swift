@@ -4,7 +4,7 @@
 //
 //  Created by Pete Nealley on 2/25/25.
 //
-import SwiftUI
+import Foundation
 import SwiftData
 
 /// Represents a category for grouping grocery items (e.g., "Meat", "Produce").

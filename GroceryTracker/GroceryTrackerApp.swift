@@ -12,7 +12,11 @@ import SwiftData
 struct GroceryTrackerApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Category.self,
+            GroceryItem.self,
+            PriceRecord.self,
+            Store.self,
+            Chain.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
